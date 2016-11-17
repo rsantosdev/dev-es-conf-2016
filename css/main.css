@@ -302,6 +302,8 @@ footer {
       left: 20px; }
       header .info h1 {
         font-size: 2em; }
+      header .info h2 {
+        font-size: 1em; }
   .box-logo {
     position: absolute;
     width: 300px;
@@ -377,4 +379,12 @@ footer {
   body {
     margin-bottom: 600px; }
   footer {
-    height: 600px; } }
+    height: 600px; }
+    footer .partners {
+      flex-direction: row; }
+      footer .partners figure {
+        width: 45%;
+        margin: 5px;
+        padding: 15px; }
+        footer .partners figure img {
+          height: 40px; } }
