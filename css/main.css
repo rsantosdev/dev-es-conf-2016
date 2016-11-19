@@ -15,7 +15,10 @@ body {
   margin-top: 0;
   width: 100%;
   max-width: 1440px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
   .f-row:after {
     content: "";
     display: table;
@@ -245,6 +248,8 @@ main {
       background-image: url("../img/speaker8.jpg"); }
     .palestrantes .speaker-inside-container .avatar-9 {
       background-image: url("../img/speaker9.jpg"); }
+    .palestrantes .speaker-inside-container .avatar-10 {
+      background-image: url("../img/speaker10.jpg"); }
     .palestrantes .speaker-inside-container .call-1 {
       background-image: url("../img/call1.png"); }
     .palestrantes .speaker-inside-container .call-2 {
@@ -264,7 +269,7 @@ main {
     .palestrantes .speaker-inside-container .call-9 {
       background-image: url("../img/call9.png"); }
     .palestrantes .speaker-inside-container .call-10 {
-      background-image: url("../img/call2.png"); }
+      background-image: url("../img/call10.png"); }
 
 footer {
   visibility: hidden;
